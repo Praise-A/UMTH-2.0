@@ -108,10 +108,11 @@ nav img {
 }
 
 .top-area {
-  background-image: url("../../../resources/images/abt-2.jpg");
+  background-image: url("../../../resources/images/abt-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .top-area {
@@ -120,7 +121,7 @@ nav img {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  padding: 100px 0 10px 0;
+  padding: 6.5rem 0 0.75rem 0;
 }
 
 .top-area-inner {
@@ -323,5 +324,11 @@ footer {
 @media (min-width: 992px) and (max-width: 1200px) {
   .nav-link {
     font-size: 0.86rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .top-area {
+    padding-top: 12rem;
   }
 }
