@@ -51,7 +51,7 @@ header {
 }
 
 nav {
-  height: 100px;
+  height: 6.25rem;
   background: white;
   color: black;
   transition-timing-function: ease;
@@ -67,11 +67,7 @@ nav {
 .nav-link:hover {
   color: #0b61a9;
   text-decoration: underline;
-  text-underline-offset: 10px;
-}
-
-nav img {
-  width: 100%;
+  text-underline-offset: 0.5rem;
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -98,8 +94,7 @@ nav img {
 }
 
 .nav-i-img {
-  width: 100%;
-  height: 84px;
+  height: 5.2em;
   padding: 5px;
 }
 
@@ -108,31 +103,25 @@ nav img {
 }
 
 .top-area {
-  background-image: url("../../../resources/images/abt-2.jpg");
+  background-color: #0b61a9;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   background-position: center center;
 }
 
-.top-area {
+.top-area .container {
   position: relative;
   color: white;
   justify-content: center;
   align-items: center;
+  text-align: center;
   text-transform: uppercase;
-  padding: 6.5rem 0 0.75rem 0;
+  padding: 7rem 0 1rem;
 }
 
 .top-area-inner {
   display: flex;
   justify-content: center;
-}
-
-.top-area-text {
-  background: rgba(47, 45, 45, 0.6);
-  padding: 0 1.6rem 0.6rem;
-  border-radius: 1rem;
 }
 
 .top-area h1,
@@ -143,8 +132,9 @@ nav img {
 }
 
 main {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  line-height: 2rem;
   text-align: justify;
 }
 
@@ -152,6 +142,11 @@ h2,
 h5 {
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
+}
+
+p,
+ul {
   margin: 0;
 }
 
@@ -184,6 +179,10 @@ h5 {
   padding: 1rem 0;
   border-radius: 0.75rem;
   margin-bottom: 0.5rem;
+}
+
+.box-content {
+  padding-bottom: 1.5rem;
 }
 
 .content-list {
@@ -293,11 +292,5 @@ footer {
 @media (min-width: 992px) and (max-width: 1200px) {
   .nav-link {
     font-size: 0.86rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .top-area {
-    padding-top: 12rem;
   }
 }
