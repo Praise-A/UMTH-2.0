@@ -168,6 +168,27 @@ ul {
   padding-bottom: 1.5rem;
 }
 
+.management {
+  padding-top: 1rem;
+}
+
+.management > div {
+  padding: 0.5rem 0;
+}
+
+.management h5 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.management ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .cc-heading {
   text-align: center;
 }
