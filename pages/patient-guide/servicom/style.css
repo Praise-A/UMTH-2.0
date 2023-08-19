@@ -102,6 +102,30 @@ nav {
   height: 100%;
 }
 
+.top-area {
+  background-color: #0b61a9;
+}
+
+.top-area .container {
+  position: relative;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 7rem 0 1rem;
+}
+
+.top-area-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.top-area h1 {
+  font-weight: 600;
+  margin: 0;
+}
+
 main {
   padding: 30px 0;
 }
@@ -130,10 +154,6 @@ ul {
   color: white;
   border-radius: 0.75rem;
   padding: 10px;
-}
-
-.ph-wrapper {
-  padding-bottom: 20px;
 }
 
 .box-heading {

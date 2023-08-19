@@ -118,6 +118,10 @@ h5 {
   text-align: center;
 }
 
+p {
+  margin: 0;
+}
+
 li {
   padding-left: 5px;
 }
