@@ -158,7 +158,11 @@ ul {
 
 .lp-list {
   list-style: none;
-  padding-left: 0.7rem;
+  padding-left: 0.6rem;
+}
+
+.lpl-entry h6 {
+  padding-left: 5px;
 }
 
 .lp-list li {

@@ -51,7 +51,7 @@ header {
 }
 
 nav {
-  height: 100px;
+  height: 6.25rem;
   background: white;
   color: black;
   transition-timing-function: ease;
@@ -67,11 +67,7 @@ nav {
 .nav-link:hover {
   color: #0b61a9;
   text-decoration: underline;
-  text-underline-offset: 10px;
-}
-
-nav img {
-  width: 100%;
+  text-underline-offset: 0.5rem;
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -98,15 +94,13 @@ nav img {
 }
 
 .nav-i-img {
-  width: 100%;
-  height: 84px;
+  height: 5.2em;
   padding: 5px;
 }
 
 .nav-i-img img {
   height: 100%;
 }
-/* nav end */
 
 a {
   text-decoration: none;
