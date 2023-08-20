@@ -158,6 +158,15 @@ nav img {
   width: 100%;
 }
 
+.link-wrapper a {
+  color: black;
+  text-decoration: none;
+}
+
+.link-wrapper h3 {
+  font-size: 1.5rem;
+}
+
 footer {
   background: #022c46;
   color: white;

@@ -143,6 +143,42 @@ ul {
   margin: 0;
 }
 
+.main-wrapper {
+  padding: 0 0 0.7rem;
+}
+
+.management {
+  padding-top: 1rem;
+}
+
+.left-panel {
+  padding-top: 0.5rem;
+}
+
+.left-panel > div {
+  padding: 0.5rem 0;
+}
+
+.lp-header {
+  background-color: #0b61a9;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.lp-list {
+  list-style: none;
+  padding-left: 0.6rem;
+}
+
+.lpl-entry h6 {
+  padding-left: 5px;
+}
+
+.lp-list li {
+  padding: 5px 0 0 5px;
+}
+
 .ph-box {
   display: flex;
   justify-content: center;
@@ -165,28 +201,7 @@ ul {
 }
 
 .box-content {
-  padding-bottom: 1.5rem;
-}
-
-.management {
-  padding-top: 1rem;
-}
-
-.management > div {
-  padding: 0.5rem 0;
-}
-
-.management h5 {
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.management ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  padding-bottom: 1rem;
 }
 
 .cc-heading {
